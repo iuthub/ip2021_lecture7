@@ -1,7 +1,7 @@
 -- MySQL dump 10.11
 --
 -- to install this database, from a terminal, type:
--- mysql -u USERNAME -p -h SERVERNAME imdb_small < imdb_small.sql
+-- mysql -u USERNAME -p -h SERVERNAME imdb_small < imdb.sql
 --
 -- Host: localhost    Database: imdb_small
 -- ------------------------------------------------------

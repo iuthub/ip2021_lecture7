@@ -6,8 +6,8 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
     $query = $_REQUEST['query'];
 }
 
-$db = new PDO('mysql:host=localhost;dbname=world', 'admin', 'y1DPKeYQRznM3oGx');
-$stmt = $db->prepare('SELECT * FROM cities WHERE name LIKE ?');
+$db = new PDO('mysql:host=localhost;dbname=world', 'desmond', 'qIYlszWWsWE2eGqN');
+$stmt = $db->prepare('SELECT * FROM cities WHERE name LIKE ? LIMIT 5');
 //    execute query
 $stmt->execute(array($query . '%'));
 //    fetch rows
